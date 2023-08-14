@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr) ;
+    grid-template-rows: 1fr;
+}
+header {
+    height:100px;
+    grid-column: 1/-1;
+}
+nav {
+    background-color: gray;
+    margin: 0;
+    height: 100%;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+#blog-name {
+    margin-right: 70%;
+}
+
+main {
+    grid-column: 4/7;
+    /* grid-row-start: 2fr; */
+}
+
+/* .list-nav {
+    margin-left: 40%;
+} */
+
+img {
+    height: 300px;
+    width: 400px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    grid-column: 1/-1;
+    grid-row-start: 3;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+.card {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 400px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 0;
+    margin: 0; */
+    width: 400px;
+}
+
+section p {
+    margin: 0 15px 15px 15px;
+}
+
+.card button {
+    margin-bottom: 10px;
+}
+
+/* .card * {
+    margin: 0;
+    padding: 0;
+    
+} */
+
+/* .card section {
+    flex-direction: wrap;
+} */
